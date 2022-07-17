@@ -17,7 +17,7 @@ const articles = [
 
 const Article = () => {
   return articles.map(([title, text], index) => {
-    return <li className="list__item">
+    return <li className="list__item" key={index}>
       <h2>{title}</h2>
       <p>{text}</p>
     </li>
