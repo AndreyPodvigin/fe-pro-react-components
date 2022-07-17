@@ -1,6 +1,6 @@
 import React from "react";
 
-const navText = [['Home', '/'], ['About us', '/#about'], ['Contact us', '/#contact'], ['Help Page', '/#help']];
+const navText = [['Home', '/'], ['About us', '/#about'], ['Contact us', '/#contact'], ['Help page', '/#help']];
 
 const NavItem = () => {
   return <nav>
