@@ -16,8 +16,9 @@ const articles = [
 ];
 
 const Article = () => {
-  return articles.map(([title, text], index) => {
-    return <li className="list__item" key={index}>
+  let i = 0;
+  return articles.map(([title, text]) => {
+    return <li className="list__item" key={i++}>
       <h2>{title}</h2>
       <p>{text}</p>
     </li>
