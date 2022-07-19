@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import Card from "./Card";
 
 const articles = [
   {
@@ -66,10 +66,9 @@ const articles = [
 
 const Article = () => {
   return articles.map(({ title, text, id }) => {
-    return <li className="list__item" key={id}>
-      <h2>{title}</h2>
-      <p>{text}</p>
-    </li>
+    return (
+      <Card content={{ title, text, id }} key={id} />
+    )
   })
 }
 
