@@ -4,11 +4,11 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 
 const Application = () => {
-  return <div className="wrapper">
+  return (<div className="wrapper">
     <Header />
     <Content />
     <Footer />
-  </div>;
+  </div>)
 };
 
 export default Application;

@@ -2,7 +2,7 @@ import React from "react";
 import Article from "./Article";
 
 const Content = () => {
-  return <main>
+  return (<main>
     <section className="posts">
       <div className="container">
         <h1>Posts</h1>
@@ -11,7 +11,7 @@ const Content = () => {
         </ul>
       </div>
     </section>
-  </main>
+  </main>)
 }
 
 export default Content
